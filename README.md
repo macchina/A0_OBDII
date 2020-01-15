@@ -1,9 +1,12 @@
-ESP32_OBDII
+A0 ELM327 Emulation  
 =======
 
-A sketch that translates between a Model 3 on it's vehicle BUS and an add-on OBDII socket.
+Sketch for the Macchina A0 that turns it into either a Bluetooth or WiFi OBDII ELM327 dongle
 
-This is currently just a non-working skeleton. It'll work some day.
+This allows A0 to use all those existing apps out there. (i.e. torque)
+
+For now, we switch between Bluetooth or Wifi via a define found in config.h around line 38
+
 
 #### License:
 
